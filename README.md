@@ -6,18 +6,11 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Clone this repository.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Run `npm start` and the browser open at `http://localhost:3000`
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-To run test launch `npm test`
 
 Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
 
@@ -29,6 +22,6 @@ To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these li
 
       configure({ adapter: new Adapter() });
 
-
+To run test launch `npm test`
 
 
