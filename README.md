@@ -4,13 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `Start`
 
 Clone this repository.
 
 Run `npm start` and the browser open at `http://localhost:3000`
 
-### `npm test`
+### `Test`
 
 To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these lines : 
 
@@ -20,7 +20,10 @@ To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these li
 
       configure({ adapter: new Adapter() });
  
-Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
+Files tests are : 
+      * __Board.test.js__,  
+      * __Game.test.js__, 
+      * __Square.test.js__ .
 
 To run test launch `npm test`
 
