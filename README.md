@@ -19,9 +19,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 To run test launch `npm test`
 
-Files tests are : _Board.test.js_,  _Game.test.js_, _Square.test.js_ .
+Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
 
-To test i use Enzyme. I create a file named _"setUpTests.js"_ and add these lines : 
+To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these lines : 
 
 import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
