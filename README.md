@@ -22,9 +22,9 @@ To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these li
  
 Files tests are : 
 
-      * __Board.test.js__,  
-      * __Game.test.js__, 
-      * __Square.test.js__ .
+      * Board.test.js,  
+      * Game.test.js, 
+      * Square.test.js
 
 To run test launch `npm test`
 
