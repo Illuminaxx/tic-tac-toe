@@ -12,8 +12,6 @@ Run `npm start` and the browser open at `http://localhost:3000`
 
 ### `npm test`
 
-Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
-
 To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these lines : 
 
       import { configure } from 'enzyme';
@@ -21,7 +19,15 @@ To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these li
 
 
       configure({ adapter: new Adapter() });
+ 
+Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
 
 To run test launch `npm test`
 
 
+### Application demo 
+
+The application can be tested at this address : https://morpion-game.netlify.com/
+
+This application is hosted on [Netlify](https://app.netlify.com/). 
+It's a Paas (Plate-forme en tant que service i.e Platform as a service)
