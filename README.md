@@ -23,11 +23,11 @@ Files tests are : __Board.test.js__,  __Game.test.js__, __Square.test.js__ .
 
 To test i use Enzyme. I create a file named __"setUpTests.js"__ and add these lines : 
 
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+      import { configure } from 'enzyme';
+      import Adapter from 'enzyme-adapter-react-16';
 
 
-configure({ adapter: new Adapter() });
+      configure({ adapter: new Adapter() });
 
 
 
